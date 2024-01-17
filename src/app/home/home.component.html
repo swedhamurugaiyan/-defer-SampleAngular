@@ -1,0 +1,20 @@
+<section class="pet-list">
+    <h2>Pets Online Store</h2>
+      @defer (on timer(2000)) {
+        <p>{{pets[0].name}}</p>
+      }
+      @defer (on timer(3000)){
+        <img [src]="pets[0].imageUrl">
+      }  
+      @defer (on timer(4000)) {
+        <p>{{pets[1].name}}</p> 
+      }
+      @defer (on timer(5000)){
+        <img [src]="pets[1].imageUrl">
+      } 
+      
+      
+    
+</section>
+
+

@@ -1,0 +1,21 @@
+.pet-list{
+    margin: 20px;
+}
+.pet-list h2{
+    color: blue;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.pet-list div{
+    margin-bottom: 20px;
+}
+.pet-list img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 5px;
+}
+.pet-list p{
+    text-align: center;
+    margin-top: 10px;
+}

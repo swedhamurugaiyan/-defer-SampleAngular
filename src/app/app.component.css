@@ -1,0 +1,37 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+}
+h2{
+    text-align: center;
+}
+.form-container{
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid cadetblue;
+    padding:20px;
+    border-radius: 8px;
+}
+
+form{
+    max-width: 100%;
+}
+label{
+    display: block;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    padding: 8px;
+}
+.button-container{
+    text-align: center;
+
+}
+.cost{
+    background-color: blueviolet;
+    display: inline-block;
+    padding: 2px 5px;
+    border-radius: 4px;
+}
+button{
+    background-color: greenyellow;
+}
